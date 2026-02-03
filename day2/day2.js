@@ -1,0 +1,13 @@
+const headingElement = document.getElementById('heading');
+console.log(headingElement);
+headingElement.textContent = 'Hello from JavaScript!';
+headingElement.style.color = 'blue';
+headingElement.style.fontSize = '24px';
+headingElement.style.fontWeight = 'bold';
+headingElement.style.backgroundColor = 'lightgray';
+headingElement.style.padding = '10px';
+headingElement.style.borderRadius = '5px';
+const paragraph = document.querySelector('#content p');
+paragraph.textContent = 'This paragraph has been modified by JavaScript.';
+paragraph.style.fontStyle = 'italic';
+paragraph.style.color = 'green';
